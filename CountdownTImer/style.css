@@ -1,0 +1,56 @@
+/* Page styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('clock.jpg'); /* Replace 'background.jpg' with your image URL */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Center title at the top */
+/* .title {
+  position: absolute;
+  top: 20px;  
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+/* Timer container styling */
+.timer-container {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+  padding: 50px; /* Increase padding for a larger box */
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 300px; /* Increase width for a larger box */
+}
+
+
+/* Input and display styling */
+#minutesInput, #timeDisplay {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  text-align: center;
+}
+
+/* Button styling */
+.button-container button {
+  width: 70px;
+  padding: 5px;
+  font-size: 1rem;
+  margin: 5px;
+  cursor: pointer;
+}

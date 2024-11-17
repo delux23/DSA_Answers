@@ -1,0 +1,64 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+body {
+  background-image: url('/src/bg.jpg'); /* For public folder */
+  /* Or if the image is in src: background-image: url('./path-to-image.jpg'); */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+   /* Centers the image */
+}
+
+.search-box input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: #0366d6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #024a9b;
+}
+
+.user-card {
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.user-card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.user-card p {
+  margin: 5px 0;
+}

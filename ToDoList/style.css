@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('bg.png') no-repeat center center fixed; /* Add your image here */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    display: flex; /* Center the content */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Full viewport height */
+    color: #333;
+  }
+  
+  .todo-app {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.641); /* Transparent white background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    backdrop-filter: blur(5px); /* Adds a frosted glass effect */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    display: flex;
+    gap: 10px;
+  }
+  
+  #todo-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #add-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #add-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .filter-section {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #ffffffaa; /* Slightly transparent white */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  button.delete-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.delete-btn:hover {
+    background: #b71d2a;
+  }
+  
+  button.complete-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.complete-btn:hover {
+    background: #218838;
+  }
+  
